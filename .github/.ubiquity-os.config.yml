@@ -1,6 +1,6 @@
 plugins:
   - uses:
-      - plugin: https://ubiquity-os-daemon-pricing-development.ubiquity.workers.dev
+      - plugin: https://ubiquity-os-daemon-pricing-main.ubiquity.workers.dev
         with:
           globalConfigUpdate:
             excludeRepos: []
@@ -34,7 +34,7 @@ plugins:
           basePriceMultiplier: 1
           shouldFundContributorClosedIssue: false
   - uses:
-      - plugin: ubiquity-os-marketplace/text-conversation-rewards@development
+      - plugin: ubiquity-os-marketplace/text-conversation-rewards@main
         with:
           evmNetworkId: 100
           evmPrivateEncrypted: "12345"
