@@ -32,4 +32,4 @@ plugins:
               - name: "Priority: 5 (Emergency)"
                 collaboratorOnly: false
           basePriceMultiplier: 1
-          shouldFundContributorClosedIssue: true
+          shouldFundContributorClosedIssue: false
