@@ -752,9 +752,9 @@ plugins:
             collaboratorOnlyPaymentInvocation: true
             contentEvaluator:
               openAi:
-                model: gpt-4o-2024-08-06
+                model: anthropic/claude-3.7-sonnet
                 tokenCountLimit: 124000
-                endpoint: https://api.openai.com/v1
+                endpoint: https://openrouter.ai/api/v1
                 maxRetries: 10
               multipliers:
                 - role:
@@ -766,7 +766,6 @@ plugins:
               skipCommentsWhileAssigned: all
             reviewIncentivizer:
               baseRate: 100
-              conclusiveReviewCredit: 25
             eventIncentives: {}
             formattingEvaluator:
               readabilityScoring:
