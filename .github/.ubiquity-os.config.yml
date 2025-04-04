@@ -33,7 +33,7 @@ plugins:
                 collaboratorOnly: false
           basePriceMultiplier: 1
           publicAccessControl:
-            setLabel: false
+            setLabel: true
             fundExternalClosedIssue: false
             protectLabels:
               - priority
