@@ -32,4 +32,10 @@ plugins:
               - name: "Priority: 5 (Emergency)"
                 collaboratorOnly: false
           basePriceMultiplier: 1
-          shouldFundContributorClosedIssue: false
+          publicAccessControl:
+            setLabel: false
+            fundExternalClosedIssue: false
+            protectLabels:
+              - priority
+              - price
+              - time
